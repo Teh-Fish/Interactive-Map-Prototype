@@ -1,0 +1,46 @@
+body {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #02330d;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navdiv {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-icon h1 {
+  font-size: 40px;
+  color: #e3ca94;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profile-section .username {
+  font-size: 20px;
+  color: #e3ca94;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.profile-section .profile-pic {
+  font-size: 50px;
+  color: #e3ca94;
+}
