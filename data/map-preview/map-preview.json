@@ -1,0 +1,16 @@
+{
+  "Arid map latest guide": {
+    "map": "Arid",
+    "date_updated": "xx-xx-xxxx",
+    "image": "Arid.jpg",
+    "author": "CuriousSeal",
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, fuga incidunt molestias tenetur animi rerum asperiores alias dicta quos velit aliquid obcaecati eius. Laborum ad aspernatur corporis voluptates molestias magni!"
+  },
+  "Official Russia map guide": {
+    "map": "Russia",
+    "date_updated": "yy-yy-yyyy",
+    "image": "Russia.jpg",
+    "author": "OfficialDev101",
+    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, fuga incidunt molestias tenetur animi rerum asperiores alias dicta quos velit aliquid obcaecati eius. Laborum ad aspernatur corporis voluptates molestias magni!"
+  }
+}

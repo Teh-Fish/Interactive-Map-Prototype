@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="/style/homepage/body.css" />
     <link rel="stylesheet" href="/style/homepage/navbar.css" />
     <link rel="stylesheet" href="/style/homepage/sidebar.css" />
   </head>
@@ -19,6 +20,7 @@
         <div class="page-icon">
           <h1>UNTURNED INTERACTIVE MAP</h1>
         </div>
+
         <div class="profile-section">
           <a href="profile.html" class="username">username123</a>
           <a href="profile.html" class="profile-pic"
@@ -29,27 +31,29 @@
     </nav>
 
     <!--Side map list-->
-    <nav class="sidebar">
-      <div class="sidebar-title">
-        <h2>List of Maps</h2>
-      </div>
-
-      <div class="sidebar-content">
-        <ul>
-          <li><a href="/map-preview/map1.html" target="mainframe">Map 1</a></li>
-          <li><a href="/map-preview/map2.html" target="mainframe">Map 2</a></li>
-          <li><a href="/map-preview/map3.html" target="mainframe">Map 3</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--Add guide button-->
-    <div class="add-guide">
-      <button type="button">Create Your Own Guide</button>
-    </div>
-
     <div class="content-frame">
-      <iframe name="mainframe" frameborder="0"></iframe>
+      <nav class="sidebar">
+        <div class="sidebar-title">
+          <h2>List of Maps</h2>
+        </div>
+
+        <div class="sidebar-content">
+          <ul id="map-list">
+            <!--put the list of map name here-->
+          </ul>
+        </div>
+
+        <div class="add-guide">
+          <button type="button">Create Your Own Guide</button>
+        </div>
+      </nav>
+
+      <!--This is the main content-->
+      <div class="preview-frame">
+        <iframe name="mainframe" class="mainframe"></iframe>
+      </div>
     </div>
+
+    <script src="function/switch-content.js"></script>
   </body>
 </html>

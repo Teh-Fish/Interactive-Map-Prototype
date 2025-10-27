@@ -1,28 +1,43 @@
+.content-frame {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+
 .sidebar h2 {
   margin: 0;
 }
 
 .sidebar {
   width: 20vw;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 100px);
   margin-top: 0;
-  background: cyan;
+  background: #333;
   position: sticky;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 30px 1fr;
 }
 
 .sidebar-title h2 {
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: larger;
+  padding-left: 5px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.sidebar-content {
+  display: flex;
 }
 
 .add-guide button {
   width: 20vw;
   height: 50px;
+  background-color: forestgreen;
+  font-size: 18px;
 }
 
-.content-frame {
-  display: grid;
+.preview-frame .mainframe {
+  height: 100%;
+  width: 100%;
+  border: none;
 }
