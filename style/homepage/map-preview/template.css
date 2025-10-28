@@ -1,9 +1,9 @@
-.preview-box {
+.list-item {
   width: 20vw;
   background-color: aqua;
   height: 100px;
 }
 
-.preview-box:hover {
+.list-item:hover {
   transform: scale(1.1);
 }

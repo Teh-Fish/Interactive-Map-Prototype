@@ -1,6 +1,6 @@
 .content-frame {
   display: grid;
-  grid-template-columns: 20vw 1fr;
+  grid-template-columns: 15vw 1fr;
 }
 
 .sidebar h2 {
@@ -8,7 +8,7 @@
 }
 
 .sidebar {
-  width: 20vw;
+  width: 15vw;
   height: calc(100vh - 100px);
   margin-top: 0;
   background: #333;
@@ -30,14 +30,27 @@
 }
 
 .add-guide button {
-  width: 20vw;
+  width: 15vw;
   height: 50px;
   background-color: forestgreen;
   font-size: 18px;
 }
 
-.preview-frame .mainframe {
-  height: 100%;
-  width: 100%;
-  border: none;
+#map-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-item {
+  background-color: aquamarine;
+  width: 15vw;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item:hover {
+  transform: scale(1.05);
 }

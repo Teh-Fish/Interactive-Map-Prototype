@@ -6,10 +6,13 @@ fetch("/data/map-preview/map-preview.json")
     for (let title in mapData) {
       const newListItem = document.createElement("li");
       const newAnchor = document.createElement("a");
+      const newDiv = document.createElement("div");
+      newDiv.className = "list-item";
       newAnchor.textContent = title;
       newAnchor.href = `index.html?id=${encodeURIComponent(title)}`;
 
-      newListItem.appendChild(newAnchor);
+      newDiv.appendChild(newAnchor);
+      newListItem.appendChild(newDiv);
       listContainer.appendChild(newListItem);
     }
   });
