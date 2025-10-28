@@ -5,13 +5,36 @@ fetch("/data/map-preview/map-preview.json")
 
     for (let title in mapData) {
       const newListItem = document.createElement("li");
-      const newAnchor = document.createElement("a");
+      const newButton = document.createElement("button");
       const newDiv = document.createElement("div");
       newDiv.className = "list-item";
-      newAnchor.textContent = title;
-      newAnchor.href = `index.html?id=${encodeURIComponent(title)}`;
+      newButton.textContent = title;
+      newButton.id = title;
 
-      newDiv.appendChild(newAnchor);
+      newButton.addEventListener("click", () => {
+        const guideTitle = mapData[title];
+        const guidePublishedDate = guideTitle.date_updated;
+        const guideImage = guideTitle.image;
+        const guideAuthor = guideTitle.author;
+        const guideOverview = guideTitle.overview;
+
+        const guideContent = document.getElementById("guide-content");
+        guideContent.innerHTML = `
+          <div class = "heading">
+        <h2>${title}</h2>
+        <p class="date-published">${guidePublishedDate}</p>
+        <p class="author">${guideAuthor}</p>
+        </div>
+        <div class="image-container">
+        <img src="${guideImage}">
+        </div>
+        <div class="overview">
+        <p>${guideOverview}</p>
+        </div>
+        `;
+      });
+
+      newDiv.appendChild(newButton);
       newListItem.appendChild(newDiv);
       listContainer.appendChild(newListItem);
     }
