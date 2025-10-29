@@ -13,6 +13,7 @@ fetch("/data/map-preview/map-preview.json")
 
       newButton.addEventListener("click", () => {
         const guideTitle = mapData[title];
+        const mapName = guideTitle.map;
         const guidePublishedDate = guideTitle.date_updated;
         const guideImage = guideTitle.image;
         const guideAuthor = guideTitle.author;
@@ -20,15 +21,16 @@ fetch("/data/map-preview/map-preview.json")
 
         const guideContent = document.getElementById("guide-content");
         guideContent.innerHTML = `
-          <div class = "heading">
+        <div class = "heading">
         <h2>${title}</h2>
-        <p class="date-published">${guidePublishedDate}</p>
-        <p class="author">${guideAuthor}</p>
+        <p class="date-published">Date published: ${guidePublishedDate}</p>
+        <p class="author">Created by: ${guideAuthor}</p>
         </div>
         <div class="image-container">
-        <img src="${guideImage}">
+        <a href = "/data/map-detail/${mapName}.html"><img src="${guideImage}"></a>
         </div>
         <div class="overview">
+        <p id="overview-title">Overview</p>
         <p>${guideOverview}</p>
         </div>
         `;

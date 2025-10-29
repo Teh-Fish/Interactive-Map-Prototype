@@ -1,0 +1,10 @@
+.sidebar {
+  width: 15vw;
+  background-color: #333;
+  height: 100vh;
+}
+
+.icon {
+  background-color: #02330d;
+  color: white;
+}
