@@ -12,7 +12,7 @@
   height: calc(100vh - 100px);
   margin-top: 0;
   background: #333;
-  position: sticky;
+  position: flex;
   display: grid;
   grid-template-rows: 30px 1fr;
 }

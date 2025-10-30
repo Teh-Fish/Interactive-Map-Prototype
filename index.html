@@ -45,12 +45,18 @@
         </div>
 
         <div class="add-guide">
-          <button type="button">Create Your Own Guide</button>
+          <button type="button" id = "create-guide-button">Create Your Own Guide</button>
         </div>
       </nav>
 
       <div id = "guide-content"></div>
 
     <script src="function/switch-content.js"></script>
+    <script>
+      const gay = document.getElementById("create-guide-button")
+      gay.addEventListener("click", () => {
+        alert("This function is not yet added.");
+      });
+    </script>
   </body>
 </html>

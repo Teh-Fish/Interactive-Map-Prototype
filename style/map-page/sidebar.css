@@ -1,10 +1,13 @@
 .sidebar {
-  width: 15vw;
+  width: 18vw;
   background-color: #333;
   height: 100vh;
 }
 
 .icon {
   background-color: #02330d;
+  display: flex;
   color: white;
+  font-size: 14px;
+  padding: 5px;
 }

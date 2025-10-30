@@ -2,6 +2,7 @@
   background-color: #02330d;
   padding-left: 15px;
   padding-right: 30px;
+  position: sticky;
 }
 
 .navbar h1 {
