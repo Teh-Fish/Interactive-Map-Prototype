@@ -6,46 +6,49 @@
     <title>User Profile</title>
     <link rel="stylesheet" href="/style/profile-page/body.css" />
     <link rel="stylesheet" href="/style/profile-page/content.css" />
+    <link rel="stylesheet" href="/style/profile-page/navbar.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="page-icon">
+          <h1><a href="index.html">UNTURNED INTERACTIVE MAP</a></h1>
+        </div>
+
+        <div class="profile-section">
+          <a href="profile.html" class="username">username123</a>
+          <a href="profile.html" class="profile-pic"
+            ><i class="bi bi-person-circle"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
       <div class="profile-bar">
         <i class="bi bi-person-circle"></i>
         <div class="log-out-in">
-          <button id="log-in">Log in</button>
-          <button id="log-out">Log out</button>
+          <button class="button">Log in</button>
+          <button class="button">Log out</button>
         </div>
       </div>
 
       <div class="content-frame">
         <div class="p-info">
-          <h2>Personal info</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-            aperiam. Necessitatibus id eaque sequi velit quam dicta officia iure
-            magnam rem ut repudiandae quisquam incidunt sapiente quod neque
-            perferendis voluptatem, commodi amet fuga cumque accusantium. Dicta,
-            omnis expedita dolorum commodi laudantium ea impedit animi. Eos
-            nostrum velit nam! A ipsum molestiae nam quo possimus exercitationem
-            vero corporis, atque dolore eveniet magni rerum hic voluptatibus
-            optio, inventore doloribus odit, veritatis facere quidem harum
-            eligendi? Optio veritatis ducimus voluptate dignissimos quae
-            distinctio obcaecati inventore illo. Blanditiis placeat unde
-            exercitationem distinctio, accusamus atque fugit ea sequi at ducimus
-            praesentium rem quibusdam nobis non!
-          </p>
+          <h2>About me</h2>
+          <p>Just an enthusiastic player with things to share :P</p>
         </div>
 
         <div class="c-list">
           <h2>Contribution</h2>
           <ul class="contribution-list">
-            <li>Contribution 1</li>
-            <li>Contribution 2</li>
-            <li>Contribution 3</li>
+            <li><p>Co-developer of map XXX</p></li>
+            <li><p>Creator of guide for map YYYY</p></li>
+            <li><p>Make very good coffee</p></li>
           </ul>
         </div>
       </div>

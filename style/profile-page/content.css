@@ -1,13 +1,59 @@
-.container {
-  background-color: tomato;
-}
-
 .profile-bar {
-  background-color: gray;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 20vw;
+  padding-top: 20px;
 }
 
 .profile-bar i {
   font-size: 250px;
+  padding-right: 5vw;
+  color: #676a6e;
+}
+
+.profile-bar .log-out-in {
+  gap: 30px;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.log-out-in .button {
+  height: 40px;
+  width: 200px;
+  background-color: #676a6e;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+}
+
+.log-out-in .button:hover {
+  background-color: #81858a;
+}
+
+.content-frame {
+  padding-left: 5vw;
+  padding-right: 50vw;
+  padding-top: 0;
+  color: white;
+}
+
+.content-frame h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.p-info {
+  margin-bottom: 10px;
+}
+
+.content-frame p {
+  font-size: 20px;
+}
+
+.c-list li {
+  list-style-type: none;
+  margin-bottom: 2px;
 }
