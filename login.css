@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #333;
+}
+
+.container {
+  background-color: forestgreen;
+  color: white;
+  width: 450px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.container h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.container .input-box {
+  width: 100%;
+  height: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-box input {
+  width: 438px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  outline-style: none;
+  border-radius: 40px;
+  border: 1px solid blue;
+  padding-left: 10px;
+  color: white;
+}
+
+.input-box ::placeholder {
+  color: white;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.remember-forgot a {
+  color: white;
+}
+
+.button {
+  background-color: turquoise;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.register a {
+  color: white;
+}
