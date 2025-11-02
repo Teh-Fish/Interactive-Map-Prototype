@@ -1,0 +1,40 @@
+#map-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#map-container #map-image {
+  height: 80%;
+  position: relative;
+}
+
+.poi {
+  height: 1000px;
+}
+
+.add-marker-container {
+  background-color: tomato;
+  position: absolute;
+  height: 10vh;
+  width: 10vh;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.add-marker-container .button {
+  height: 90%;
+  width: 90%;
+}
+
+.add-marker-container .button:hover {
+  background-color: aquamarine;
+}

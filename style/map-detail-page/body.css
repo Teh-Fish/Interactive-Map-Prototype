@@ -7,4 +7,6 @@
 
 body {
   background-color: #212121;
+  display: grid;
+  grid-template-columns: 18vw 1fr;
 }
