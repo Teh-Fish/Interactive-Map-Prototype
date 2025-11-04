@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>This is the login page</title>
-    <link rel="stylesheet" href="/style/login-page/login.css" />
+    <link rel="stylesheet" href="/style/login.css" />
   </head>
   <body>
     <div class="container">
@@ -20,16 +20,26 @@
 
         <div class="remember-forgot">
           <label><input type="checkbox" />Remember me</label>
-          <a href="#">Forgot password?</a>
+          <a href="#" onclick="alert('This function is not yet added')"
+            >Forgot password?</a
+          >
         </div>
 
-        <button type="submit" class="button">Login</button>
+        <button type="button" class="button" id="button">Login</button>
 
         <div class="register">
           <label for="register">Don't have an account?</label>
-          <a href="#">Register now.</a>
+          <a href="#" onclick="alert('This function is not yet added')"
+            >Register now.</a
+          >
         </div>
       </form>
     </div>
+    <script>
+      const submitButton = document.getElementById("button");
+      submitButton.addEventListener("click", () => {
+        window.location.href = "index.html";
+      });
+    </script>
   </body>
 </html>
