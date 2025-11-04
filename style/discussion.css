@@ -1,0 +1,184 @@
+body {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #02330d;
+  padding-left: 15px;
+  padding-right: 30px;
+  position: sticky;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navdiv {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-icon h1 a {
+  font-size: 40px;
+  color: #e3ca94;
+  text-decoration: none;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profile-section .username {
+  font-size: 20px;
+  color: #e3ca94;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.profile-section .username:hover {
+  color: #f2d79d;
+}
+
+.profile-section .profile-pic {
+  font-size: 50px;
+  color: #e3ca94;
+}
+
+.profile-section .profile-pic:hover {
+  color: #f2d79d;
+}
+
+.content-frame {
+  display: grid;
+  grid-template-columns: 15vw 1fr;
+}
+
+.sidebar h2 {
+  margin: 0;
+}
+
+.sidebar {
+  width: 15vw;
+  height: calc(100vh - 100px);
+  margin-top: 0;
+  background: #333;
+  position: flex;
+  display: grid;
+  grid-template-rows: 30px 1fr;
+}
+
+.sidebar-title h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: #e3ca94;
+  font-size: 30px;
+}
+
+.sidebar-content {
+  display: flex;
+}
+
+.add-guide button {
+  width: 15vw;
+  height: 50px;
+  background-color: forestgreen;
+  font-size: 18px;
+}
+
+.main-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#comment-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-item {
+  background-color: aquamarine;
+  width: 15vw;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.list-item:hover {
+  transform: scale(1.05);
+}
+
+.list-item button {
+  font-size: 18px;
+  width: 15vw;
+  height: 50px;
+  background-color: green;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comments h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.post-content {
+  color: white;
+  padding-left: 20px;
+  border: 1px solid white;
+}
+
+.post-content h2 {
+  font-size: 32px;
+}
+
+.comment-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.comment {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  column-gap: 5px;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.upvote {
+  background-color: transparent;
+  border: 0;
+  font-size: 28px;
+}
+
+.upvote:hover {
+  color: white;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.user-profile i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.comment-text {
+  width: 80%;
+}

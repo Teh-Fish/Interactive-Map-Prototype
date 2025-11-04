@@ -3,8 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dicussion</title>
+    <title>Discussion</title>
     <link rel="stylesheet" href="/style/discussion.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <div class="page-icon">
+          <h1><a href="index.html">UNTURNED INTERACTIVE MAP</a></h1>
+        </div>
+
+        <div class="profile-section">
+          <a href="profile.html" class="username">username123</a>
+          <a href="profile.html" class="profile-pic">
+            <i class="bi bi-person-circle"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-frame">
+      <nav class="sidebar">
+        <div class="sidebar-title">
+          <h2>List of Maps</h2>
+        </div>
+
+        <div class="sidebar-content">
+          <ul id="comment-list">
+            <li>
+              <div class="list-item">
+                <button onclick="alert('This function is not yet added')">
+                  New content for the next patch
+                </button>
+              </div>
+            </li>
+            <li>
+              <div class="list-item">
+                <button onclick="alert('This function is not yet added')">
+                  HELP! Game keeps crashing upon opening the map
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="add-guide">
+          <button
+            type="button"
+            id="create-guide-button"
+            onclick="alert('This function is not yet added')"
+          >
+            Create post
+          </button>
+        </div>
+      </nav>
+
+      <div class="main-content">
+        <div class="post-content">
+          <h2>New content for the next patch</h2>
+          <p class="author">Created by: FunkySeal999</p>
+          <p class="post-message">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
+            ratione voluptates labore voluptatem fugit aspernatur, inventore
+            delectus, vel architecto qui quos nemo at neque quod, ad doloremque
+            ut unde aut error ipsa iste. Officiis eum delectus quo recusandae
+            aut atque, maiores corrupti veniam earum, molestias culpa eius ad
+            aspernatur error ipsa explicabo at cupiditate dicta iure reiciendis
+            fugit aliquid eaque! Perspiciatis consequuntur quo exercitationem
+            sed optio officia! Tempora ratione velit, repudiandae accusamus sed
+            perspiciatis, unde alias, rem porro rerum dicta reprehenderit eos
+            asperiores? Voluptas a esse eveniet consequatur error excepturi
+            earum, perspiciatis labore accusamus animi recusandae deserunt,
+            nostrum facere corrupti.
+          </p>
+        </div>
+
+        <div class="comments">
+          <h2>Comments</h2>
+          <ul class="comment-list">
+            <li>
+              <div class="comment">
+                <button class="upvote">
+                  <i class="bi bi-caret-up-fill"></i>
+                </button>
+                <div class="comment-content">
+                  <div class="user-profile">
+                    <i class="bi bi-person-circle"></i>
+                    <p>JoyousSeal234</p>
+                  </div>
+                  <div class="comment-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptates harum itaque non dicta distinctio illo ipsam iste
+                    placeat sapiente? Nobis magnam est aperiam animi esse eius
+                    soluta obcaecati distinctio nisi.
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="comment">
+                <button class="upvote">
+                  <i class="bi bi-caret-up-fill"></i>
+                </button>
+                <div class="comment-content">
+                  <div class="user-profile">
+                    <i class="bi bi-person-circle"></i>
+                    <p>JoyousSeal234</p>
+                  </div>
+                  <div class="comment-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Totam fugiat, reiciendis culpa ea repellat modi cum dolore
+                    molestias, perspiciatis amet saepe et? Omnis a, facilis
+                    laboriosam deserunt ea ipsum facere dolores doloremque quae
+                    deleniti aperiam assumenda amet in corrupti, earum
+                    consectetur officiis, veritatis quas! Atque reprehenderit ex
+                    amet quaerat omnis!
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
