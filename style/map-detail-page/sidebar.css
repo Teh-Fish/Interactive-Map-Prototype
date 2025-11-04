@@ -8,7 +8,15 @@
 .icon {
   background-color: #02330d;
   display: flex;
-  color: white;
   font-size: 20px;
   padding: 5px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.filter-list li {
+  color: white;
 }

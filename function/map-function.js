@@ -42,6 +42,7 @@ function addMarker(xPos, yPos, markerClass, markerInfo) {
   newMarker.style.position = "absolute";
   newMarker.style.height = "40px";
   newMarker.style.width = "40px";
+  newMarker.style.color = "white";
   newMarker.style.left = `${xPos}px`;
   newMarker.style.top = `${yPos}px`;
   newMarker.style.transform = `translate(-50%, -50%)`;
