@@ -52,17 +52,17 @@ function addMarker(xPos, yPos, markerClass, markerInfo) {
   });
   switch (markerClass) {
     case "poi":
-      newMarker.src = "/data/icons/geo-alt.svg";
+      newMarker.src = "../data/icons/geo-alt.svg";
       newMarker.style.transform = `translate(-50%, -100%)`;
       break;
     case "vehicle":
-      newMarker.src = "/data/icons/car-front.svg";
+      newMarker.src = "../data/icons/car-front.svg";
       break;
     case "medical":
-      newMarker.src = "/data/icons/prescription2.svg";
+      newMarker.src = "../data/icons/prescription2.svg";
       break;
     case "fuel":
-      newMarker.src = "/data/icons/ev-station.svg";
+      newMarker.src = "../data/icons/ev-station.svg";
       break;
   }
   container.appendChild(newMarker);
