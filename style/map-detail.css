@@ -35,17 +35,22 @@ body {
 }
 
 .add-marker-container {
-  background-color: tomato;
+  background-color: forestgreen;
   position: absolute;
-  height: 10vh;
-  width: 10vh;
+  height: 15vh;
+  width: 15vh;
   bottom: 0;
   right: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 40px 1fr 1fr;
   justify-items: center;
   align-items: center;
+}
+
+.add-marker-container p {
+  grid-column: 1/-1;
+  color: white;
 }
 
 .add-marker-container .button {
@@ -66,8 +71,15 @@ body {
 
 .sidebar li {
   color: white;
-  padding-bottom: 5px;
+  padding-top: 5px;
   padding-left: 10px;
+  font-size: 20px;
+}
+
+.filter-list label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
 }
 
 .icon {
